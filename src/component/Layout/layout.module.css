@@ -1,0 +1,27 @@
+.container {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+
+.heading {
+    color: rebeccapurple;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+.heading:hover {
+    color: orange;
+    transition: color 0.5s;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.nav-link-item {
+    padding-right: 2rem;
+}
+.nav-link-text {
+    color: black;
+}
