@@ -3,6 +3,11 @@
     max-width: 500px;
     font-family: sans-serif;
 }
+.site-title {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+}
 
 
 .heading {

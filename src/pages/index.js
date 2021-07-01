@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../component/Layout/Layout";
 import { StaticImage } from "gatsby-plugin-image";
+import { graphql } from "gatsby";
 
 const IndexPage = () => {
   return (
@@ -12,5 +13,7 @@ const IndexPage = () => {
       </main>
   )
 }
+
+
 
 export default IndexPage
